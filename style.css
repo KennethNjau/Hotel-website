@@ -1,0 +1,34 @@
+body{
+    background-color: #5fffea75;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*main website font */
+    font-size: 16px; /*default website font-size*/
+    text-align: center; /*default text orientation*/
+}
+.container{
+    display: grid;
+    height: 100vh;
+}
+h1.title{
+    text-align: left;
+    color: brown;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 10px;
+}
+h1.title:hover{
+    text-decoration: overline;
+    color: #a52a2a75;
+    transition: ease-in-out .7s;
+}
+/* Navigation Bar */
+.top menu{
+    background-color: brown; /* Assigning Brown color */
+    overflow: hidden; /*Hiding the text overflow*/
+}
+.top-menu ul li{
+    list-style-type: none; /*removing the unordered list bullets or markers */
+    float: left; /*Align the list items horizontal*/
+    border-right: 2px solid #5fffea; /*Adding the white border */
+    padding: 5px 10px; /* Adding some space: vertical and horizontal */
+}
+
